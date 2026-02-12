@@ -1,1 +1,57 @@
 # Vippacess
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Minha Loja</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Minha Loja</h1>
+    <p>Produtos incríveis com vídeos!</p>
+  </header>
+
+  <main>
+    <!-- Produto 1 -->
+    <section class="produto">
+      <h2>Produto 1</h2>
+      <video controls width="300">
+        <source src="videos/produto1.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+      <p>Descrição curta do Produto 1.</p>
+      <button onclick="adicionarCarrinho('Produto 1')">Comprar</button>
+    </section>
+
+    <!-- Produto 2 -->
+    <section class="produto">
+      <h2>Produto 2</h2>
+      <video controls width="300">
+        <source src="videos/produto2.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+      <p>Descrição curta do Produto 2.</p>
+      <button onclick="adicionarCarrinho('Produto 2')">Comprar</button>
+    </section>
+
+    <!-- Produto 3 -->
+    <section class="produto">
+      <h2>Produto 3</h2>
+      <video controls width="300">
+        <source src="videos/produto3.mp4" type="video/mp4">
+        Seu navegador não suporta vídeo.
+      </video>
+      <p>Descrição curta do Produto 3.</p>
+      <button onclick="adicionarCarrinho('Produto 3')">Comprar</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Minha Loja © 2026</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
